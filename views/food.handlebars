@@ -1,0 +1,26 @@
+
+<h1><U>{{food.name}}</U></h1>
+
+<ul>
+{{#if food.isVegan}}
+<li><h3>Vegan</h3></li>
+{{/if}}
+
+{{#if food.isVegetarian}}
+<li><h3>Vegetarian</h3></li>
+{{/if}}
+
+{{#if food.isGlutenFree}}
+<li><h3>Gluten Free</h3></li>
+{{/if}}
+</ul>
+
+<h3>Calories per serving({{food.servingSize}}oz) : {{food.caloriePerServing}}</h3>
+
+<h3>Composition:
+  <ul>
+    {{#each food.composition}}
+      <li>{{this.name}} : {{this.amount}}</li>
+    {{/each}}
+  </ul>
+</h3>

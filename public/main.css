@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.nav .tag {
+    padding: 10px;
+    background-color: red;
+    display: inline;
+    font-weight: bold;
+    color: white;
+}
+
+#umdUserIDInput{
+	padding: 9px;
+	outline: none;
+  background-color: rgb(245, 245, 245);
+	border:none;
+	align-content: center;
+}
+#umdUserIDInput:hover{
+	padding: 9px;
+	border: none;
+	outline: none;
+	background-color: rgb(230, 230, 230);
+	box-sizing: border-box;
+	align-self: center;
+}
+
+#umdUserPasswordInput{
+	padding: 9px;
+	outline: none;
+	border:none;
+	align-content: center;
+}
+#umdUserPasswordInput:hover{
+	padding: 9px;
+	border: none;
+	outline: none;
+	background-color: rgb(230,230,230);
+	box-sizing: border-box;
+	align-self: center;
+}
+#submitUMDInput{
+	color: white;
+	padding: 9px;
+	text-decoration: none;
+	background-color: red;
+	border: none;
+	transition-duration: 0.5s;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+#submitUMDInput:hover{
+	color: red;
+	padding: 9px;
+	text-decoration: none;
+	border: none;
+	background-color: white;
+	transition-duration: 0.1s;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.spanFoodData{
+    padding: 5px;
+    color: red;
+}
+input[type="radio"]{
+  height: 30px;
+  width: 30px;
+}
+h1 .spanFoodData{
+    padding: 5px;
+    color: red;
+}
+
+.imageAnimation{
+  width: 512px;
+  height: 384px;
+  opacity: 100%;
+  transition-duration: 0.5s;
+  display: block;
+  margin: 20px;
+}
+
+li a{
+    color: red;
+    padding: 13px;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+li a:hover{
+    color: orange;
+    padding: 13px;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+}

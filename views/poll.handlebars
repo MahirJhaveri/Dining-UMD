@@ -1,0 +1,19 @@
+<h2>
+Hi, {{user.firstName}}
+</h2>
+		<!--TOP OF POLL PARENT-->
+		<div id = "pollHeader">
+
+		<!--TABLE-->
+		<!--SEND POLL RESULT-->
+  <h3>{{poll.title}}</h3>
+  <form method="POST" action="/takePoll/{{user.uid}}">
+    {{#each poll.options}}
+    <input type="radio" name="food" value="{{this.name}}"> {{this.name}}<br>
+    {{/each}}
+		<div id = "pollFooter">
+			<div id = "idSend">
+				<input type="submit" name="submitSend" value="Submit" id="subSend" onclick="sendUserPollData()">
+			</div>
+		</div>
+  </form>
